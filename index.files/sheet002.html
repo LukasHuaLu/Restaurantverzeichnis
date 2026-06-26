@@ -1,0 +1,843 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../index.html">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../index.html");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#467886" vlink="#96607D">
+
+<table border=0 cellpadding=0 cellspacing=0 width=2488 style='border-collapse:
+ collapse;table-layout:fixed;width:1866pt'>
+ <col width=48 style='mso-width-source:userset;mso-width-alt:1536;width:36pt'>
+ <col width=80 style='mso-width-source:userset;mso-width-alt:2560;width:60pt'>
+ <col width=128 style='mso-width-source:userset;mso-width-alt:4096;width:96pt'>
+ <col width=224 style='mso-width-source:userset;mso-width-alt:7168;width:168pt'>
+ <col width=112 style='mso-width-source:userset;mso-width-alt:3584;width:84pt'>
+ <col width=256 style='mso-width-source:userset;mso-width-alt:8192;width:192pt'>
+ <col width=336 style='mso-width-source:userset;mso-width-alt:10752;width:252pt'>
+ <col width=256 style='mso-width-source:userset;mso-width-alt:8192;width:192pt'>
+ <col width=368 style='mso-width-source:userset;mso-width-alt:11776;width:276pt'>
+ <col width=240 style='mso-width-source:userset;mso-width-alt:7680;width:180pt'>
+ <col width=440 style='mso-width-source:userset;mso-width-alt:14080;width:330pt'>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl66 width=48 style='height:24.0pt;width:36pt;font-size:
+  11.0pt;color:white;font-weight:700;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#1F4E79;mso-pattern:black none'>排序</td>
+  <td class=xl67 width=80 style='width:60pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>推荐级别</td>
+  <td class=xl67 width=128 style='width:96pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>中文名</td>
+  <td class=xl67 width=224 style='width:168pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>外文名</td>
+  <td class=xl67 width=112 style='width:84pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>城市</td>
+  <td class=xl67 width=256 style='width:192pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>地址</td>
+  <td class=xl67 width=336 style='width:252pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>营业时间</td>
+  <td class=xl67 width=256 style='width:192pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>风格</td>
+  <td class=xl67 width=368 style='width:276pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>中国胃判断</td>
+  <td class=xl67 width=240 style='width:180pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>适合场景</td>
+  <td class=xl68 width=440 style='width:330pt;font-size:11.0pt;color:white;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#1F4E79;
+  mso-pattern:black none'>来源链接</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>1</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#274E13;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#D9EAD3;
+  mso-pattern:#C0E6F5 none'>A</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>文华酒楼</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Dim Sum Cantonese Cuisine</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Markt 5, 53111 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>每日 12:00–22:00（以官网为准）</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>粤菜、点心、港式烧味</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>波恩中餐优先级很高；老牌粤菜/点心。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>市中心；粤菜；点心；请客</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://dimsum-bonn.de/ ;
+  https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>2</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#274E13;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#D9EAD3;
+  mso-pattern:black none'>A</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>遇见成都</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Meet Chengdu</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Moltkestraße 50, 53173
+  Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>工作日 11:30–22:00；周末
+  12:00–22:00；周二休息（以 Feinfood/Google 为准）</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>川菜；水煮鱼、回锅肉、干煸辣子鸡</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>波恩川菜首选。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bad Godesberg；川菜；辣味正餐</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://www.feinfood.com/restaurant/ff80808195260f3c01954e3f7ddb2c99.xhtml</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>3</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#274E13;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#D9EAD3;
+  mso-pattern:#C0E6F5 none'>A/B</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>钓鱼台酒楼</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>China Restaurant Kolaila</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Berliner Freiheit 19–21, 53111 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>官网有地址联系方式；第三方时间不一致，需确认晚餐时段</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>传统中餐、市中心、自助/正餐</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>波恩市中心稳妥选择；方便，但时间需确认。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>市中心；正餐；多人/临时</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://www.kolaila.de/ ;
+  https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>4</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:black none'>B</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>北京鸭酒楼</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Peking Ente Haus</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Im Mühlenbach 2c, 53127
+  Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>周一二
+  18:00–21:30；周三至周日午晚餐时段，官网/平台略有差异，去前确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>北京烤鸭、传统中餐</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>想吃烤鸭可选；建议提前订鸭。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>烤鸭；正式些；提前订</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://www.pekingentehaus.de/
+  ; https://www.pekingentehaus.de/oeffenungzeiten/</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>5</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:#C0E6F5 none'>B</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>杏花村酒家</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>China Restaurant Jasmin</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Godesberger Allee 125, 53175 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>周一休息；周二至周五 11:30–14:00、17:00–21:00；周六
+  17:00–21:00；周日 11:30–14:00、17:00–21:00</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>老牌中餐、粤式/泛亚洲、烤鸭</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bad Godesberg 方向备选；环境较正式、安静。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bad Godesberg；家庭/安静聚餐</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://restaurant-jasmin.metro.rest/?lang=de</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>6</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:black none'>B/C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>南京酒家</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Nan King</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Thomas-Mann-Str. 1, 53111
+  Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>午餐自助：周一至周五 11:30–15:00，周六
+  11:30–16:00；晚餐自助：周一至周六 17:30–22:00；周日及节假日 11:30–22:00</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>中餐自助、蒙古烧烤、川湘菜名</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>多人/预算固定可选；不是中国胃精致首选。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>市中心；自助；多人</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://www.nanking-bonn.de/Kontakt.php</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>7</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:#C0E6F5 none'>B</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>乐多食饮</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>LeDu Chinese Street Food</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Maximilianpassage / Poststraße 2–4, 53111 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>周一至周五 11:00–21:00；周六日及节假日 11:30–21:00（以官网为准）</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>煎饼、饺子、刈包、汤面、街食</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>火车站快餐首选；适合随便吃。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Hbf 附近；快餐；学生</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://ledu.restaurant/restaurants/ledu-chinese-streetfood-bonn/</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>8</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:black none'>B/C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Suppen Bowl 麻辣烫</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Suppen Bowl Malatang</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Clemens-August-Straße
+  20–22, 53115 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>未找到稳定公开整周时间；平台显示每日营业，需确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>麻辣烫、自选汤料</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>学生/快餐备选，靠近波恩大学。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>大学附近；麻辣烫；快餐</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://de.feinfood.com/restaurant/Deutschland/Bonn/Suppen%20Bowl%20Malatang.xhtml</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>9</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:#C0E6F5 none'>B/C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Glücksbissen</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Glücksbissen</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Theaterstraße 2, 53111 Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>未找到稳定公开时间；需确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>包子、锅贴、生煎、汤面、馄饨</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>小吃备选；靠近贝多芬音乐厅。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>小吃；快餐；市中心</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162&amp;pg=1</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>10</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#990000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#F4CCCC;
+  mso-pattern:black none'>C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>上海酒楼</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>China Restaurant Shanghai</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bonn</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Schieffelingsweg 31, 53123
+  Bonn</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>未找到稳定公开时间；需确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>自助餐</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>自助备选；不作为中国胃首选。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>自助；多人；西波恩</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>11</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#990000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#F4CCCC;
+  mso-pattern:#C0E6F5 none'>C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>美食之家</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>China Restaurant Gourmet Garten</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Alfter / Bonn 周边</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Alfterer-Straße 2, 53347 Alfter</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>未找到稳定公开时间；需确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>传统中餐</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>波恩西侧/Alfter 备选。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Alfter；周边</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl69 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1'>12</td>
+  <td class=xl70 width=80 style='width:60pt;font-size:10.0pt;color:#990000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#F4CCCC;
+  mso-pattern:black none'>C</td>
+  <td class=xl71 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>皇家花园酒楼</td>
+  <td class=xl71 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>China Restaurant Kaiser
+  Garden</td>
+  <td class=xl71 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bornheim / Bonn 周边</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Kleinstrasse 16, 53332
+  Bornheim</td>
+  <td class=xl71 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>未找到稳定公开时间；需确认</td>
+  <td class=xl71 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>中餐自助、蒙古烧烤</td>
+  <td class=xl71 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bornheim 方向自助备选。</td>
+  <td class=xl71 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>Bornheim；自助；多人</td>
+  <td class=xl72 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none'>https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <tr height=77 style='mso-height-source:userset;height:57.6pt'>
+  <td height=77 class=xl73 width=48 style='height:57.6pt;width:36pt;font-size:
+  10.0pt;color:black;font-weight:400;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Carlito;border-top:.5pt solid #44B3E1;
+  border-right:none;border-bottom:.5pt solid #44B3E1;border-left:.5pt solid #44B3E1;
+  background:#C0E6F5;mso-pattern:#C0E6F5 none'>13</td>
+  <td class=xl74 width=80 style='width:60pt;font-size:10.0pt;color:#7F6000;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#FFF2CC;
+  mso-pattern:#C0E6F5 none'>B/C</td>
+  <td class=xl75 width=128 style='width:96pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>沙仑玫瑰坊</td>
+  <td class=xl75 width=224 style='width:168pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Tak Kee China Imbiss</td>
+  <td class=xl75 width=112 style='width:84pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Bonn</td>
+  <td class=xl75 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Endenicher Strasse 325, 53121 Bonn</td>
+  <td class=xl75 width=336 style='width:252pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>未找到稳定公开时间；需确认</td>
+  <td class=xl75 width=256 style='width:192pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>家常菜、小馆、水煮鱼、回锅肉、灌汤包</td>
+  <td class=xl75 width=368 style='width:276pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>家常小馆备选；菜名比较中国胃。</td>
+  <td class=xl75 width=240 style='width:180pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:none;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>Endenich；小馆；家常菜</td>
+  <td class=xl76 width=440 style='width:330pt;font-size:10.0pt;color:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Carlito;border-top:.5pt solid #44B3E1;border-right:.5pt solid #44B3E1;
+  border-bottom:.5pt solid #44B3E1;border-left:none;background:#C0E6F5;
+  mso-pattern:#C0E6F5 none'>https://cn.feinfood.com/restaurants/%E5%BE%B7%E5%9B%BD/%E6%B3%A2%E6%81%A9.xhtml?key=&amp;o=4&amp;p=1162</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=48 style='width:36pt'></td>
+  <td width=80 style='width:60pt'></td>
+  <td width=128 style='width:96pt'></td>
+  <td width=224 style='width:168pt'></td>
+  <td width=112 style='width:84pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=336 style='width:252pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=368 style='width:276pt'></td>
+  <td width=240 style='width:180pt'></td>
+  <td width=440 style='width:330pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
